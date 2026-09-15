@@ -190,6 +190,14 @@ function App() {
             </button>
           ))}
         </nav>
+
+        <br/>
+        <button
+          className="btn"
+          onClick={() => window.open("https://365tours-prototype.netlify.app/", "_blank", "noopener,noreferrer")}
+        >
+          Visit 365Tours
+        </button>
       </header>
       <main>
         {page === "Dashboard" && <DashboardPage counts={counts} />}
