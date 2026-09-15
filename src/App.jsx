@@ -194,7 +194,13 @@ function App() {
         <br/>
         <button
           className="btn"
-          onClick={() => window.open("https://365tours-prototype.netlify.app/", "_blank", "noopener,noreferrer")}
+          onClick={() =>
+            window.open(
+              "https://365tours-prototype.netlify.app/?utm_source=zenithlab&utm_medium=button&utm_campaign=PROMO10156",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
         >
           Visit 365Tours
         </button>
